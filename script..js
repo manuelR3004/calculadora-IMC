@@ -20,8 +20,14 @@ function calcular() {
         años--;
     }
 
+    
+
     if (años < 0) {
         resultado.textContent = "Fecha inválida";
+
+        
+        
+
     } else {
         resultado.textContent = "Tienes " + años + " años";
     }
